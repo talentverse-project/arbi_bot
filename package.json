@@ -1,0 +1,30 @@
+{
+  "name": "arbitrage-bot",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@uniswap/sdk": "^3.0.3",
+    "axios": "^1.7.3",
+    "bignumber.js": "^9.1.2",
+    "ccxt": "^4.3.76",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.4",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^2.7.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "p-map": "^7.0.2",
+    "redis": "^4.7.0",
+    "telegraf": "^4.16.3",
+    "web3": "^4.11.1",
+    "ws": "^8.18.0"
+  }
+}
